@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0f172a;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  height: 300px;
+  background: linear-gradient(to right, #2563eb, #1e40af);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #1e40af;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  text-align: center;
+}
