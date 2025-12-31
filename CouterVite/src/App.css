@@ -1,0 +1,33 @@
+.App{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #060505;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+.count{
+  background-color: #ca7676;
+  font-size: 3rem;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.plus{
+  background-color: #76ca89;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.minus{
+  background-color: #7676ca;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
